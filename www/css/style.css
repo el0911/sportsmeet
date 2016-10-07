@@ -1,0 +1,155 @@
+      /* Empty. Add your own CSS if you like */
+      .bpadding{
+        /*z-index: 0;*/
+        /*padding-top:100%;*/
+        padding-left: 13%;
+        background: url('../img/b.jpg');
+        filter: blur(50px);
+         background-repeat: no-repeat;
+         background-size: cover;
+         padding-right: 13%;
+          filter: blur(200px);
+          position: fixed;
+           left: 0;
+           height: 100%;
+           right: 0;
+           z-index: 1;
+             filter: blur(15px);
+            /*-webkit-filter: blur(50px);
+            -moz-filter: blur(50px);
+            -o-filter: blur(50px);
+            -ms-filter: blur(50px);
+            filter: blur(50px);*/
+           display: block;
+           /*background-image: url('http://666a658c624a3c03a6b2-25cda059d975d2f318c03e90bcf17c40.r92.cf1.rackcdn.com/unsplash_527bf56961712_1.JPG');*/
+       /*width: 1200px;
+       height: 800px;*/
+
+      }
+
+      .list h4{
+
+      }
+
+      .list{
+      text-align: center;
+      }
+
+      .scroll{
+        height: 100%;
+      }
+
+      .curves{
+        border-radius: 20px;
+      }
+
+      .margin_{
+        margin-top: 140%;
+      }
+
+      .item{
+        color: #00C853;
+        border-left:0 ;
+          border-right:0;
+            border-top:0;
+              border-bottom:   1px solid #00C853;
+      }
+
+      .input-label{
+        color: #00C853;
+      }
+
+      .list h4{
+        color:blue;
+      }
+
+
+      .login{
+        margin-top: 100%;
+      }
+
+      .signup{
+        margin-top: 80%;
+      }
+
+      .header-item{
+        color: white;
+        /*float: right;*/
+      }
+
+      .item-avatar p{
+        text-align: left;
+      }
+
+      .item-avatar h2{
+        text-align: left;
+      }
+
+      .item-body p{
+
+      }
+        .p_ {
+          margin-top: 1px;
+          text-align: left;
+      }
+
+      .time{
+        margin-bottom: 0;
+        padding-bottom: 0;
+        /*color: */
+      }
+
+      .time a{
+        margin-bottom: 5px;
+      margin-top: 5px;
+      }
+
+      .time a h2{
+      margin-top: 13px;
+      }
+
+      .tag{
+        float: left;
+        color :blue;
+        /*padding-right: 5px;*/
+        background-color: #efefef;
+        padding-left: 2px;
+        padding-left: 2px;
+        margin-right: 10px;
+        /*width: 3px;*/
+      }
+      .left{
+      }
+
+      .left button{
+        float: right;
+        height: 29px;
+        /*padding: 0;*/
+        background-color: white;
+        border: 1px solid  #33cd5f;
+        /*padding: 0;*/
+      }
+
+      .left button:active{
+        float: right;
+        height: 29px;
+        /*padding: 0;*/
+        color: white;
+        background-color: #33cd5f;
+        border: 1px solid  white;
+      }
+
+
+      .left button h4{
+        color:  #33cd5f;
+        margin-top: 0;
+        /*margin: 5px;*/
+      }
+      .left button h4:active{
+        color: white;
+        margin-top: 0;
+      }
+
+      .has-header{
+        /*margin-top: 30px;*/
+      }

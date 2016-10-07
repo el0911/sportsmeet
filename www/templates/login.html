@@ -1,0 +1,59 @@
+<ion-view view-title="Login">
+  <ion-content style="filter: blur(50px)" class="bpadding">
+
+  <div ng-hide="view.main" class="">
+    <button ng-click="login()" style="margin-top:150%" class=" button button-outline button-full button-balanced curves margin_">
+      Login
+    </button>
+
+    <button ng-click="signup()" class="button   button-full button-balanced curves ">
+        Sign Up
+    </button>
+  </div>
+
+  <div ng-hide="view.login" class="login">
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">First Name</span>
+        <input style="color:white"class="in" type="text" placeholder="First Name">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Last Name</span>
+        <input style="color:white" type="text" placeholder="Last Name">
+      </label>
+      <button ng-click="loginm()" class="button   button-full button-balanced curves ">
+          Login
+      </button>
+      <h4  ng-click="back()">  < Back</h4>
+      </div>
+    </div>
+
+  <div ng-hide="view.signup" class="signup">
+    <div class="list">
+      <label class="item item-input item-floating-label">
+        <span class="input-label">First Name</span>
+        <input style="color:white"class="in" type="text" placeholder="First Name">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Last Name</span>
+        <input style="color:white" type="text" placeholder="Last Name">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Email</span>
+        <input style="color:white" type="text" placeholder="Email">
+      </label>
+      <label class="item item-input item-floating-label">
+        <span class="input-label">Number</span>
+        <input style="color:white" type="Number" placeholder="Number">
+      </label>
+      <button ng-click="signupm()" class="button   button-full button-balanced curves ">
+          Sign up
+      </button>
+
+          <h4  ng-click="back()">  < Back</h4>
+
+      </div>
+  </div>
+
+  </ion-content>
+</ion-view>
