@@ -1,10 +1,15 @@
 <ion-view view-title="Account">
+  <div class="bar bar-header item-input-inset">
+    <label class="item-input-wrapper">
+      <i class="icon ion-ios-search placeholder-icon"></i>
+      <input type="search" placeholder="Search">
+    </label>
+</div>
   <ion-content>
     <ion-list>
         <div class="list">
-          <div class="item">
-                
-          </div>
+          <hscroller>
+            <hcard ng-repeat="item in items" index="{{$index}}" desc="{{item.desc}}" image="{{item.image}}"></hcard></hscroller>
         </div>
     </ion-list>
   </ion-content>
