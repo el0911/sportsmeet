@@ -161,3 +161,18 @@
       input{
         background: #efefef;
       }
+
+      .iconlower{
+        float: left;
+        margin-top: 19px;
+        width: 100%;
+        text-align: center;
+      }
+
+
+      .iconlower i{
+      float: left;
+        text-align: center;
+      }
+
+    
