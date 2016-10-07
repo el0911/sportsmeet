@@ -172,7 +172,9 @@
 
       .iconlower i{
       float: left;
-        text-align: center;
+      text-align: center;
+      font-size: 13px;
+      background: white;
+      border-top: 1px solid #efefef;
+      color: #efefef
       }
-
-    
