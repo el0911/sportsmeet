@@ -3,45 +3,25 @@ Create tabs with an icon and label, using the tabs-positive style.
 Each tab's child <ion-nav-view> directive will have its own
 navigation history that also transitions its views in and out.
 -->
-
-  <!-- <div class="bar bar-header item-input-inset " ng-controller="head">
-    <button  ng-hide="view.messages"class="button button-icon icon ion-navicon"></button>
-    <div    ng-hide="view.text" class="h1 title" >Sports Meet</div>
-    <button  ng-hide="view.user" class="button button-icon icon ion-person"></button>
-    <label ng-hide="view.bar" class="item-input-wrapper">
-      <i class="icon ion-ios-search placeholder-icon"></i>
-      <input type="search" placeholder="Search">
-    </label>
-    <button ng-hide="view.search" ng-click="search()" class="button button-icon icon ion-search"></button>
-  </div> -->
-
-  <div class="bar bar-header item-input-inset" ng-controller="head">
-    <button  ng-hide="view.messages"class="button button-icon icon ion-navicon"></button>
-    <div   style="text-align:center" ng-hide="view.text" class="h1 title" >Sports Meet</div>
-  <!-- <label style="float:left" ng-hide="view.bar"  class="item-input-wrapper">
-    <i class="icon ion-ios-search placeholder-icon"></i>
-    <input type="search" placeholder="Search">
-  </label> -->
-  <button  ng-hide="view.search" ng-click="search()" class="button button-icon icon ion-search"></button>
+<div class="bar bar-header " style="color:white">
+  <button class="button button-icon icon ion-navicon"></button>
+  <div class="h1 title" >Sports Meet</div>
+  <button class="button button-icon icon ion-navicon"></button>
 </div>
+<ion-tabs class="tabs-icon-top tabs-color-active-balanced has-header">
 
+  <!-- Dashboard Tab -->
+  <ion-tab title="Forum" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
+    <ion-nav-view name="tab-dash"></ion-nav-view>
+  </ion-tab>
 
-  <div class="has-header">
-    <ion-tabs class="tabs-icon-top tabs-color-active-balanced ">
+  <!-- Chats Tab -->
+  <ion-tab title="TimeLine" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
+    <ion-nav-view name="tab-chats"></ion-nav-view>
+  </ion-tab>
 
-    <!-- Dashboard Tab -->
-      <ion-tab title="Forum" icon-off="ion-ios-pulse" icon-on="ion-ios-pulse-strong" href="#/tab/dash">
-        <ion-nav-view name="tab-dash"></ion-nav-view>
-      </ion-tab>
+  <ion-tab title="People" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-user" href="#/tab/account">
+    <ion-nav-view name="tab-account"></ion-nav-view>
+  </ion-tab>
 
-    <!-- Chats Tab -->
-      <ion-tab title="TimeLine" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-chatboxes" href="#/tab/chats">
-        <ion-nav-view name="tab-chats"></ion-nav-view>
-      </ion-tab>
-
-      <ion-tab title="People" icon-off="ion-ios-chatboxes-outline" icon-on="ion-ios-user" href="#/tab/account">
-        <ion-nav-view name="tab-account"></ion-nav-view>
-      </ion-tab>
-
-  </ion-tabs>
-  </div>
+</ion-tabs>

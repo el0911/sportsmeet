@@ -75,7 +75,16 @@
       })
 
       .controller('AccountCtrl', function($scope) {
-
+        var element = document.getElementById("content");
+          console.log(element.offsetWidth);
+          var value=element.offsetWidth;// vontent with
+          var iwidth=122.7419354839;//this is constant
+          var divide=value/iwidth;
+          var position = Math.floor( divide);
+            console.log(divide);
+              console.log("position:"+position);
+          // var elements = document.getElementById("h");
+          //   console.log(elements.offsetHeight);
           $scope.items = [];
 
           for (var i = 0; i <= 5; i++) {

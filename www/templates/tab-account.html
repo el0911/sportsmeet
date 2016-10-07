@@ -1,16 +1,19 @@
-<ion-view view-title="Account">
-  <div class="bar bar-header item-input-inset">
-    <label class="item-input-wrapper">
-      <i class="icon ion-ios-search placeholder-icon"></i>
-      <input type="search" placeholder="Search">
-    </label>
-</div>
-  <ion-content>
+<ion-view view-title="Account" class="has-header">
+  <ion-content class="has-header padding">
     <ion-list>
+      <label class="item-input-wrapper">
+        <i class="icon ion-ios-search placeholder-icon"></i>
+        <input type="search" placeholder="Search">
+      </label>
         <div class="list">
-          <hscroller>
-            <hcard ng-repeat="item in items" index="{{$index}}" desc="{{item.desc}}" image="{{item.image}}"></hcard></hscroller>
+          <div id="content">
+            <hscroller>
+        <hcard  ng-repeat="item in items  track by $index" index="{{$index}}" desc="{{item.desc}}" image="{{item.image}}" id="h">{{$index}}</hcard></hscroller>
+          </div>
         </div>
+
+        <h4 ng-bind="$index"></h4>
+
     </ion-list>
   </ion-content>
 </ion-view>

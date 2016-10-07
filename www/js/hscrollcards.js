@@ -40,7 +40,8 @@
           index: '@'
         },
         link: function(scope, element, attrs){
-          var img = angular.element("<img class='hscroller-img img-circle' src='"+attrs.image+"' />");
+          var img = angular.element("<img id='h' class='hscroller-img img-circle' src='"+attrs.image+"' />");
+          
           element.append(img);
           element.append('<div class="hscroller-label">'+attrs.desc+'</div>');
           var animationClass = 'hscroller-card-animated-' + attrs.index.toString();

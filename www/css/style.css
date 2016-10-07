@@ -48,7 +48,7 @@
       }
 
       .item{
-        color: #00C853;
+        /*color: #00C853;*/
         border-left:0 ;
           border-right:0;
             border-top:0;
@@ -155,5 +155,9 @@
       }
 
       .hscroller{
-        margin-top: 60px;
+        margin-top: 20px;
+      }
+
+      input{
+        background: #efefef;
       }
