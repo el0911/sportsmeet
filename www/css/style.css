@@ -173,8 +173,17 @@
       .iconlower i{
       float: left;
       text-align: center;
-      font-size: 13px;
+      font-size: 50%;
       background: white;
       border-top: 1px solid #efefef;
-      color: #efefef
+      color: green;
       }
+
+
+.title{
+  color: black;
+}
+
+.custom-card h2{
+  margin-top: 25px;
+}

@@ -1,6 +1,12 @@
       angular.module('starter.controllers', [])
 
       .controller('DashCtrl', function($scope) {})
+      .controller("notification",function($scope){
+          console.log(1);
+
+      })
+
+            .controller('chat', function($scope) {})
 
       .controller('head', function($scope) {
         $scope.view={
