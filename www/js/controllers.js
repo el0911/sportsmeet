@@ -1,12 +1,33 @@
       angular.module('starter.controllers', [])
 
-      .controller('DashCtrl', function($scope) {})
-      .controller("notification",function($scope){
-          console.log(1);
+      .controller('DashCtrl', function($scope,$state) {
+
+          $scope.next=function(){
+            $state.go("chatm");
+          }
+
+      })
+      .controller("notification",function($scope,$state){
+          // console.log(1);
+
+                              $scope.next=function(){
+                                $state.go("chatm");
+                              }
+      })
+
+
+      .controller("time",function($scope,$state){
+          // console.log(1);
+
+                    $scope.next=function(){
+                      $state.go("chatm");
+                    }
 
       })
 
-            .controller('chat', function($scope) {})
+            .controller('chat', function($scope) {
+
+            })
 
       .controller('head', function($scope) {
         $scope.view={

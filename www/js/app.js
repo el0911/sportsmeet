@@ -82,7 +82,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','i
     views: {
       'tab-chat': {
         templateUrl: 'templates/chat.html',
-        // controller: 'notification'
+        controller: 'notification'
       }
     }
   })
@@ -92,9 +92,15 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','i
     views: {
       'tab-timeline': {
         templateUrl: 'templates/timeline.html',
-        // controller: 'AccountCtrl'
+        controller: 'time'
       }
     }
+  })
+
+  .state('chatm',{
+    url:'/chatm',
+    templateUrl:"templates/chat.html",
+    controller:"chat"
   })
 
 
