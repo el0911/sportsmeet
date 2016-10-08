@@ -206,3 +206,51 @@
       .ion-paper-airplane:active{
       color: white
       }
+
+
+    .mcard{
+      border:0;
+    }
+    .mcard2{
+      border:0;
+    color:white;
+    }
+
+    .mcard p{
+      background-color: lightgreen;
+      float: right;
+      margin-top: 30px;
+      padding: 7px;
+      border-radius: 15px;
+      color:black;
+      text-align: left;
+      width: 70%;
+      margin-right: 10px;
+    }
+
+
+    .mcard2 p{
+      background-color: lightblue;
+      /*color:white;*/
+      float: left;
+      margin-top: 30px;
+      padding: 7px;
+      border-radius: 15px;
+      color:black;
+      text-align: left;
+      width: 70%;
+      margin-left: 10px;
+    }
+
+    .mcard2 img{
+      float: left;
+      height: 47px;
+      width: 47px;
+      margin-left: 20px;
+    }
+    .mcard img{
+      float: right;
+      height: 47px;
+      width: 47px;
+      margin-right: 20px;
+    }
