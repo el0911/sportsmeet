@@ -187,3 +187,15 @@
 .custom-card h2{
   margin-top: 25px;
 }
+.message{
+  width: 93%;
+  height: 10%;
+  margin: 0;
+  padding-left: 15px;
+  padding-right:15px;
+  border: 30px;
+}
+
+.wrap{
+  background-color: transparent;
+}
