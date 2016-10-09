@@ -81,8 +81,8 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','i
     url: '/chat',
     views: {
       'tab-chat': {
-        templateUrl: 'templates/chat.html',
-        controller: 'notification'
+        templateUrl: 'templates/chatmm.html',
+        controller: 'chatmm'
       }
     }
   })

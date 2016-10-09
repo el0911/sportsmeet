@@ -9,10 +9,10 @@
       })
       .controller("notification",function($scope,$state){
           // console.log(1);
-
-                              $scope.next=function(){
-                                $state.go("chatm");
-                              }
+                              //
+        $scope.next=function(){
+          $state.go("chatm");
+              }
       })
 
 
@@ -26,6 +26,19 @@
       })
 
             .controller('chat', function($scope) {
+
+            })
+
+            .controller('chatmm', function($scope,Chats,$state) {
+              $scope.chats = Chats.all();
+              $scope.remove = function(chat) {
+                Chats.remove(chat);
+              };
+
+              $scope.next=function(){
+                $state.go("chatm");
+              }
+
 
             })
 
